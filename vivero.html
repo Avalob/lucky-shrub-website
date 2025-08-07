@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivero - Lucky Shrub</title>
+    <meta name="description" content="Vivero especializado en plantas de interior y exterior. Amplia variedad de especies y productos para jardinería.">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="main.js" defer></script>
+</head>
+
+<body itemscope itemtype="https://schema.org/GardenStore">
+    <header class="animate-on-load fade-in-top">
+        <nav>
+            <ul>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="index.html" class="logo-link"><img src="assets/Logo.png" alt="Lucky Shrub logo" class="logo  logo-entrance" /></a></li>
+                <li><a href="vivero.html" class="active">VIVERO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner del vivero -->
+        <section class="banner animate-on-load fade-in-simple" style="height: 50vh; min-height: 50vh;">
+            <img src="assets/vivero.jpg" alt="Nuestro Vivero" loading="eager" />
+            <div class="banner-overlay">
+                <div class="banner-text">
+                    <h1 class="typing-text">Nuestro Vivero</h1>
+                    <p class="banner-subtitle">Plantas de la más alta calidad para tu hogar</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secciones informativas sobre el vivero -->
+        <section class="services-info" style="padding: 6rem 2rem;">
+            <div class="services-container">
+                <h2 style="text-align: center; margin-bottom: 4rem; color: var(--primary-green); font-size: 2.5rem;">Nuestro Vivero Especializado</h2>
+                
+                <!-- Sección 1: Plantas de Interior -->
+                <div class="service-section">
+                    <div class="service-content">
+                        <div class="service-text">
+                            <h3>Plantas de Interior Premium</h3>
+                            <p class="service-intro">Transforma tu hogar u oficina con nuestra selección cuidadosamente curada de plantas de interior que purifican el aire y aportan vida a cualquier espacio.</p>
+                            <div class="service-details">
+                                <h4>¿Por qué elegir nuestras plantas de interior?</h4>
+                                <p>Cada planta de nuestra colección interior ha sido seleccionada por su capacidad de adaptación a espacios cerrados, su belleza estética y sus beneficios para la salud. Trabajamos con cultivadores locales y mantenemos las plantas en condiciones óptimas hasta que llegan a tu hogar.</p>
+                                
+                                <h4>Nuestra selección incluye:</h4>
+                                <ul>
+                                    <li data-plant="Sansevieria"><strong>Plantas purificadoras:</strong> Sansevieria, Pothos, Ficus Benjamina que mejoran la calidad del aire</li>
+                                    <li data-plant="Pothos"><strong>Plantas de bajo mantenimiento:</strong> Perfectas para principiantes o personas ocupadas</li>
+                                    <li data-plant="Monstera"><strong>Plantas decorativas:</strong> Monstera, Calathea, Alocasia para crear puntos focales</li>
+                                    <li data-plant="Cactus"><strong>Suculentas y cactus:</strong> Ideales para espacios con mucha luz natural</li>
+                                    <li data-plant="Albahaca"><strong>Hierbas aromáticas:</strong> Albahaca, menta, romero para tu cocina</li>
+                                    <li data-plant="Orquídeas"><strong>Plantas florales:</strong> Orquídeas, anturios, begonias para color constante</li>
+                                </ul>
+                                
+                                <p>Incluimos macetas decorativas, guías de cuidado personalizadas y servicio de asesoramiento gratuito. Todas nuestras plantas vienen con garantía de supervivencia de 30 días.</p>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/interior.jpg" alt="Plantas de interior premium" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección 2: Plantas de Exterior -->
+                <div class="service-section reverse">
+                    <div class="service-content">
+                        <div class="service-text">
+                            <h3>Plantas de Exterior Resistentes</h3>
+                            <p class="service-intro">Crea jardines espectaculares con nuestra amplia gama de plantas de exterior, árboles ornamentales y especies adaptadas al clima mediterráneo.</p>
+                            <div class="service-details">
+                                <h4>Especialistas en clima mediterráneo:</h4>
+                                <p>Nuestras plantas de exterior están especialmente seleccionadas para prosperar en nuestro clima. Desde árboles centenarios hasta flores de temporada, cada especie ha sido probada y cultivada en condiciones similares a las de tu jardín.</p>
+                                
+                                <h4>Categorías disponibles:</h4>
+                                <ul>
+                                    <li><strong>Árboles ornamentales:</strong> Olivos, cipreses, palmeras, frutales para sombra y estructura</li>
+                                    <li><strong>Arbustos y setos:</strong> Lavanda, romero, adelfa para delimitar espacios</li>
+                                    <li><strong>Plantas trepadoras:</strong> Jazmín, buganvilla, hiedra para muros y pérgolas</li>
+                                    <li><strong>Flores de temporada:</strong> Geranios, petunias, margaritas para color todo el año</li>
+                                    <li><strong>Plantas mediterráneas:</strong> Especies autóctonas que requieren poco riego</li>
+                                    <li><strong>Césped y tapizantes:</strong> Variedades resistentes para suelos perfectos</li>
+                                </ul>
+                                
+                                <p>Ofrecemos servicio de plantación profesional, diseño de espacios y planes de mantenimiento estacional. Garantizamos el crecimiento saludable con seguimiento trimesal gratuito durante el primer año.</p>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/vivero.jpg" alt="Plantas de exterior resistentes" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección 3: Accesorios y Cuidado -->
+                <div class="service-section">
+                    <div class="service-content">
+                        <div class="service-text">
+                            <h3>Accesorios y Productos de Cuidado</h3>
+                            <p class="service-intro">Completa tu experiencia de jardinería con nuestra gama completa de accesorios, herramientas profesionales y productos de cuidado orgánicos.</p>
+                            <div class="service-details">
+                                <h4>Todo lo que necesitas en un solo lugar:</h4>
+                                <p>Desde la maceta perfecta hasta los sistemas de riego más avanzados, tenemos todo lo necesario para que tus plantas prosperen. Trabajamos solo con marcas reconocidas y productos que hemos probado personalmente.</p>
+                                
+                                <h4>Nuestro catálogo incluye:</h4>
+                                <ul>
+                                    <li><strong>Macetas y jardineras:</strong> Cerámica, terracota, fibra de vidrio en todos los tamaños</li>
+                                    <li><strong>Sustratos premium:</strong> Tierras especializadas para cada tipo de planta</li>
+                                    <li><strong>Herramientas profesionales:</strong> Podaderas, palas, regaderas de alta calidad</li>
+                                    <li><strong>Sistemas de riego:</strong> Goteo automático, aspersores, programadores inteligentes</li>
+                                    <li><strong>Fertilizantes orgánicos:</strong> Abonos naturales y tratamientos ecológicos</li>
+                                    <li><strong>Control de plagas:</strong> Soluciones preventivas y curativas respetuosas</li>
+                                </ul>
+                                
+                                <p>Ofrecemos instalación profesional de sistemas de riego, cursos de jardinería prácticos y servicio técnico especializado. Nuestros expertos están disponibles para resolver cualquier duda sobre el cuidado de tus plantas.</p>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/mantenimiento.jpg" alt="Accesorios y cuidado profesional" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta animate-on-load fade-in-scale">
+            <div class="cta-content">
+                <h2>¿Necesitas asesoramiento?</h2>
+                <p>Nuestros expertos te ayudan a elegir las plantas perfectas para tu espacio</p>
+                <div class="cta-buttons">
+                    <a href="contacto.html" class="btn-unified btn-primary-unified" style="text-decoration: none; display: inline-block;">Contactar experto</a>
+                    <a href="servicios.html" class="btn-unified btn-secondary-unified" style="text-decoration: none; display: inline-block;">Ver servicios</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer con información y enlaces -->
+    <footer class="animate-on-load fade-in-bottom">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/miniatura.png" alt="Lucky Shrub logo" />
+                    <h3>Lucky Shrub</h3>
+                    <p>Transformando espacios, creando vida</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contacto</h4>
+              <div class="contact-info">
+    <p><a href="https://www.google.com/maps?q=Madrid,+España" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i> Madrid, España</a></p>
+    <p><a href="tel:+34912345678"><i class="fas fa-phone-alt"></i> +34 912 345 678</a></p>
+    <p><a href="mailto:info@luckyshrub.es"><i class="fas fa-envelope"></i> info@luckyshrub.es</a></p>
+</div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Enlaces</h4>
+                <ul class="footer-links">
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="vivero.html">Vivero</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+                <div class="newsletter">
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="tu@email.com">
+                        <button type="submit">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Avalob. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante scroll to top -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Volver arriba">↑</button>
+
+</body>
+</html>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.menu-toggle');
+    const navUl = document.querySelector('nav ul');
+    if (toggle && navUl) {
+        toggle.addEventListener('click', function() {
+            navUl.classList.toggle('open');
+        });
+        navUl.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => navUl.classList.remove('open'));
+        });
+        document.addEventListener('click', function(e) {
+            if (!navUl.contains(e.target) && !toggle.contains(e.target)) {
+                navUl.classList.remove('open');
+            }
+        });
+    }
+});
+</script>
+</body>
+
+</html>
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucky Shrub - Diseño de Jardines y Paisajismo</title>
+    <meta name="description" content="Lucky Shrub - Empresa líder en diseño de jardines, paisajismo y mantenimiento de áreas verdes. Transformamos espacios en obras de arte naturales.">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <meta name="theme-color" content="#4a6741">
+    <script src="main.js" defer></script>
+</head>
+
+<body itemscope itemtype="https://schema.org/LocalBusiness">
+    <!-- Navegación principal -->
+    <header class="animate-on-load fade-in-top">
+        <nav>
+            <ul>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="index.html" class="logo-link"><img src="assets/Logo.png" alt="Lucky Shrub logo" class="logo animate-on-load logo-entrance" /></a></li>
+                <li><a href="vivero.html">VIVERO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner principal con texto animado -->
+        <section class="banner animate-on-load fade-in-top">
+            <img src="assets/Banner2.png" alt="Diseñamos tus espacios" loading="eager" />
+            <div class="banner-overlay">
+                <div class="banner-text">
+                    <h1 class="typing-text" id="typingText">Diseñamos jardines únicos</h1>
+                    <p class="banner-subtitle">Transformamos espacios en obras de arte</p>
+                </div>
+                <div class="banner-buttons">
+                    <button class="banner-btn-small" aria-label="Ir a servicios">↓</button>
+                    <a href="contacto.html" class="banner-btn">CONTACTANOS AHORA</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios destacados -->
+        <section class="features animate-on-load fade-in-bottom" id="servicios">
+            <div class="features-container">
+                <a href="servicios.html" style="text-decoration: none; color: inherit;">
+                    <article>
+                        <img src="assets/jardines.jpg" alt="Jardines" loading="lazy" />
+                        <h3>Diseño de Jardines</h3>
+                        <p>Personalizamos tu espacio exterior con estilo y funcionalidad.</p>
+                    </article>
+                </a>
+                <a href="servicios.html" style="text-decoration: none; color: inherit;">
+                    <article>
+                        <img src="assets/mantenimiento.jpg" alt="Mantenimiento" loading="lazy" />
+                        <h3>Mantenimiento</h3>
+                        <p>Cuidamos tu jardín durante todo el año para que siempre luzca perfecto.</p>
+                    </article>
+                </a>
+                <a href="vivero.html" style="text-decoration: none; color: inherit;">
+                    <article>
+                        <img src="assets/vivero.jpg" alt="Vivero" loading="lazy" />
+                        <h3>Vivero</h3>
+                        <p>Plantas únicas de interior y exterior para decorar tu hogar o negocio.</p>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <!-- Galería de proyectos destacados -->
+        <section class="gallery-section animate-on-load fade-in-scale" id="galeria">
+            <div class="gallery-container">
+                <h2>Nuestros Proyectos</h2>
+                <p class="gallery-subtitle">Cada jardín cuenta una historia única</p>
+                <div class="gallery-grid">
+                    <!-- Proyecto 1 -->
+                    <div class="gallery-item" data-image="assets/Proyecto1.jpg" data-title="Jardín Residencial Premium" data-description="Diseño elegante y funcional para espacios residenciales modernos. Este proyecto incluye una cuidadosa selección de plantas perennes y estacionales, sistema de riego por goteo automatizado, iluminación LED de bajo consumo, y senderos de piedra natural. El diseño maximiza el espacio disponible creando diferentes ambientes: zona de descanso, área de juegos para niños, y un rincón zen para la relajación. Mantenimiento trimestral incluido durante el primer año." data-details="Superficie: 150m² • Duración: 3 semanas • Plantas: 45 especies • Garantía: 2 años">
+                        <img src="assets/Proyecto1.jpg" alt="Jardín Residencial Premium" loading="lazy" decoding="async" fetchpriority="low">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Proyecto Residencial</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="gallery-item" data-image="assets/Proyecto2.jpg" data-title="Paisajismo Corporativo" data-description="Espacios verdes profesionales que reflejan la identidad empresarial con bajo mantenimiento y alto impacto visual. Implementamos un diseño moderno con plantas resistentes al clima urbano, sistema de riego inteligente programable, y elementos decorativos que complementan la arquitectura del edificio. El proyecto incluye jardines verticales en las entradas principales y zonas de descanso para empleados con mobiliario eco-friendly." data-details="Superficie: 300m² • Duración: 4 semanas • Presupuesto: €25,000 • Mantenimiento: Mensual">
+                        <img src="assets/Proyecto2.jpg" alt="Paisajismo Corporativo" loading="lazy" decoding="async" fetchpriority="low">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Proyecto Corporativo</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 3 -->
+                    <div class="gallery-item" data-image="assets/Proyecto3.jpg" data-title="Jardín Zen Minimalista" data-description="Tranquilidad y armonía en cada detalle del diseño, creando un espacio de meditación y relajación personal. Este jardín japonés contemporáneo incluye elementos tradicionales como rocas seleccionadas, arena rastrillada, bambú, y plantas como arces japoneses y helechos. Se incorporó una fuente de agua con sonido relajante, bancos de madera teca, y un sendero de piedras que invita a la contemplación y el mindfulness diario." data-details="Superficie: 80m² • Estilo: Japonés contemporáneo • Elementos: Fuente, rocas, bambú • Certificado: Feng Shui">
+                        <img src="assets/Proyecto3.jpg" alt="Jardín Zen Minimalista" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Jardín Zen</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 4 -->
+                    <div class="gallery-item" data-image="assets/Proyecto4.jpg" data-title="Terraza Urbana Verde" data-description="Maximizando espacios pequeños con soluciones creativas y plantas adaptadas al entorno urbano. Esta terraza de ático incluye jardineras modulares móviles, plantas resistentes al viento, sistema de riego automático con sensores de humedad, y pérgola bioclimática para crear sombra natural. Se crearon diferentes niveles de vegetación para maximizar el espacio vertical y se instaló iluminación ambiental para disfrutar las noches de verano." data-details="Superficie: 35m² • Ubicación: Ático céntrico • Plantas: Resistentes al viento • Extras: Pérgola bioclimática">
+                        <img src="assets/Proyecto4.jpg" alt="Terraza Urbana Verde" loading="lazy" decoding="async" fetchpriority="low">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Terraza Urbana</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 5 -->
+                    <div class="gallery-item" data-image="assets/Proyecto5.jpg" data-title="Jardín Mediterráneo" data-description="Plantas resistentes y diseño clásico mediterráneo con olivos centenarios, lavanda, romero y plantas aromáticas autóctonas. Este jardín sostenible requiere mínimo riego gracias a la selección de especies adaptadas al clima mediterráneo. Incluye caminos de grava, muros de piedra seca tradicional, y zonas de estar con sombra natural. El diseño respeta la topografía natural del terreno y crea microclimas para diferentes tipos de plantas." data-details="Superficie: 200m² • Plantas: Autóctonas mediterráneas • Riego: Mínimo consumo • Sostenibilidad: 100%">
+                        <img src="assets/Proyecto5.jpg" alt="Jardín Mediterráneo" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Estilo Mediterráneo</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 6 -->
+                    <div class="gallery-item" data-image="assets/Proyecto6.jpg" data-title="Patio Interior Moderno" data-description="Transformación completa de espacios interiores con vegetación que purifica el aire y aporta vida al hogar. Este patio interior incluye jardín vertical de 4 metros de altura, plantas purificadoras como sansevieria y pothos, sistema de iluminación LED especial para plantas, y suelo de madera composite antideslizante. Se creó un ambiente tropical urbano con especies que requieren poca luz natural y son perfectas para espacios cerrados." data-details="Superficie: 25m² • Jardín vertical: 4m altura • Iluminación: LED especializada • Función: Purificación aire">
+                        <img src="assets/Proyecto6.jpg" alt="Patio Interior Moderno" loading="lazy" decoding="async" fetchpriority="low">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Patio Interior</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 7 -->
+                    <div class="gallery-item" data-image="assets/Proyecto7.jpg" data-title="Jardín Vertical Innovador" data-description="Soluciones verticales para espacios reducidos con mayor impacto visual y aprovechamiento inteligente del espacio disponible. Este jardín vertical de 6 metros incluye sistema de riego automatizado integrado, plantas de diferentes texturas y colores que crean un mural vegetal dinámico, estructura metálica invisible, y especies que requieren poco mantenimiento. Ideal para muros ciegos, patios pequeños, o como elemento decorativo principal en espacios modernos." data-details="Altura: 6m • Plantas: 120 unidades • Sistema: Riego automatizado • Mantenimiento: Semestral">
+                        <img src="assets/Proyecto7.jpg" alt="Jardín Vertical Innovador" loading="lazy" decoding="async" fetchpriority="low">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Jardín Vertical</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 8 -->
+                    <div class="gallery-item" data-image="assets/Proyecto8.jpg" data-title="Diseño Sustentable" data-description="Proyecto eco-friendly con plantas nativas, sistemas de riego eficientes y materiales reciclados para crear un jardín 100% sostenible. Incluye compostaje integrado, recogida de agua de lluvia, plantas autóctonas que atraen polinizadores locales, senderos de materiales reciclados, y zona de huerto urbano orgánico. Este jardín reduce el consumo de agua en un 70% y contribuye activamente a la biodiversidad local mientras educa sobre prácticas sostenibles." data-details="Ahorro agua: 70% • Materiales: 100% reciclados • Biodiversidad: Polinizadores nativos • Extras: Huerto orgánico">
+                        <img src="assets/Proyecto8.jpg" alt="Diseño Sustentable" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Proyecto Sustentable</h3>
+                                <p>Ver proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para detalles de proyectos -->
+        <div class="modal" id="galleryModal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <img class="modal-image" id="modalImage" src="" alt="">
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <div id="modalDescription"></div>
+                    <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 2px solid var(--light-green);">
+                        <a href="contacto.html" class="btn-unified btn-primary-unified" style="text-decoration: none; display: inline-block; margin-right: 1rem;">Solicitar proyecto similar</a>
+                        <button class="btn-unified btn-secondary-unified" onclick="document.getElementById('galleryModal').querySelector('.modal-close').click()">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección sobre nosotros -->
+        <section class="about animate-on-load fade-in-left">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>Sobre Lucky Shrub</h2>
+                    <p>Con más de 15 años de experiencia, Lucky Shrub es líder en jardinería y paisajismo. Nuestro equipo de expertos se dedica a transformar espacios exteriores en oasis verdes únicos.</p>
+                    <p>Desde pequeños jardines urbanos hasta grandes proyectos comerciales, cada trabajo es una oportunidad de crear algo extraordinario.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Proyectos completados</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Años de experiencia</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Clientes satisfechos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/interior.jpg" alt="Nuestro equipo trabajando" loading="lazy" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios de clientes -->
+        <section class="testimonials animate-on-load fade-in-right">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p>"Lucky Shrub transformó completamente mi jardín. El resultado superó todas mis expectativas. Profesionales increíbles."</p>
+                    <div class="client">
+                        <strong>María González</strong>
+                        <span>Cliente residencial</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"El mantenimiento de nuestras áreas verdes corporativas es impecable. Siempre puntuales y con resultados excepcionales."</p>
+                    <div class="client">
+                        <strong>Carlos Ruiz</strong>
+                        <span>Gerente de Facilities</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Las plantas del vivero son de primera calidad. Tienen una variedad increíble y el asesoramiento es excelente."</p>
+                    <div class="client">
+                        <strong>Ana Martín</strong>
+                        <span>Jardinera aficionada</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Llamada a la acción final -->
+        <section class="cta animate-on-load fade-in-scale">
+            <div class="cta-content">
+                <h2>¿Listo para transformar tu espacio?</h2>
+                <p>Contacta con nosotros hoy mismo y comienza a disfrutar del jardín de tus sueños</p>
+                <div class="cta-buttons">
+                    <a href="contacto.html" class="btn-unified btn-primary-unified" style="text-decoration: none; display: inline-block;">Solicitar presupuesto</a>
+                    <a href="galeria.html" class="btn-unified btn-secondary-unified" style="text-decoration: none; display: inline-block;">Ver galería</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer con información de contacto -->
+    <footer class="animate-on-load fade-in-bottom">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/miniatura.png" alt="Lucky Shrub logo" />
+                    <h3>Lucky Shrub</h3>
+                    <p>Transformando espacios, creando vida</p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <div class="contact-info">
+                    <p><a href="https://www.google.com/maps?q=Madrid,+España" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i> Madrid, España</a></p>
+                    <p><a href="tel:+34912345678"><i class="fas fa-phone-alt"></i> +34 912 345 678</a></p>
+                    <p><a href="mailto:info@luckyshrub.es"><i class="fas fa-envelope"></i> info@luckyshrub.es</a></p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Enlaces</h4>
+                <ul class="footer-links">
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="vivero.html">Vivero</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="newsletter">
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="tu@email.com">
+                        <button type="submit">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Avalob. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante para volver arriba -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Volver arriba">↑</button>
+</body>
+
+</html>

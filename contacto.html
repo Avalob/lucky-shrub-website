@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Lucky Shrub</title>
+    <meta name="description" content="Contacta con Lucky Shrub para solicitar presupuesto de jardinería y paisajismo. Formulario de contacto y datos de la empresa.">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Navegación -->
+    <header class="animate-on-load fade-in-top">
+        <nav>
+            <ul>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="index.html" class="logo-link"><img src="assets/Logo.png" alt="Lucky Shrub logo" class="logo  logo-entrance" /></a></li>
+                <li><a href="vivero.html">VIVERO</a></li>
+                <li><a href="contacto.html" class="active">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner de contacto -->
+        <section class="banner animate-on-load fade-in-simple" style="height: 40vh; min-height: 40vh;">
+            <img src="assets/Banner2.png" alt="Contacta con nosotros" loading="eager" />
+            <div class="banner-overlay">
+                <div class="banner-text">
+                    <h1 class="typing-text">Contacta con Nosotros</h1>
+                    <p class="banner-subtitle">Estamos aquí para ayudarte a crear el jardín de tus sueños</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario y datos de contacto -->
+        <section style="padding: 6rem 2rem; background: linear-gradient(135deg, var(--background-light), rgba(255, 255, 255, 0.9));">
+            <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+
+                <!-- Formulario de presupuesto -->
+                <div style="background: var(--text-white); padding: 3rem; border-radius: var(--radius-large); box-shadow: var(--shadow-light);">
+                    <h2 style="color: var(--secondary-green); font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 2rem;">Solicita tu Presupuesto</h2>
+
+                    <form style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <input type="text" placeholder="Nombre" required style="padding: 1rem; border: 2px solid var(--light-green); border-radius: var(--radius-small); font-family: 'Montserrat', sans-serif; font-size: 1rem; transition: var(--transition-fast);">
+                            <input type="text" placeholder="Apellidos" required style="padding: 1rem; border: 2px solid var(--light-green); border-radius: var(--radius-small); font-family: 'Montserrat', sans-serif; font-size: 1rem; transition: var(--transition-fast);">
+                        </div>
+
+                        <input type="email" placeholder="Email" required style="padding: 1rem; border: 2px solid var(--light-green); border-radius: var(--radius-small); font-family: 'Montserrat', sans-serif; font-size: 1rem; transition: var(--transition-fast);">
+
+                        <input type="tel" placeholder="Teléfono" style="padding: 1rem; border: 2px solid var(--light-green); border-radius: var(--radius-small); font-family: 'Montserrat', sans-serif; font-size: 1rem; transition: var(--transition-fast);">
+
+                        <select required style="padding: 1rem; border: 2px solid var(--light-green); border-radius: var(--radius-small); font-family: 'Montserrat', sans-serif; font-size: 1rem; background: white; transition: var(--transition-fast);">
+                            <option value="">Tipo de servicio</option>
+                            <option value="diseno">Diseño de jardines</option>
+                            <option value="mantenimiento">Mantenimiento</option>
+                            <option value="vivero">Vivero y plantas</option>
+                            <option value="consultoria">Consultoría</option>
+                        </select>
+
+                        <textarea placeholder="Cuéntanos sobre tu proyecto..." rows="5" style="padding: 1rem; border: 2px solid var(--light-green); border-radius: var(--radius-small); font-family: 'Montserrat', sans-serif; font-size: 1rem; resize: vertical; transition: var(--transition-fast);"></textarea>
+
+                        <button type="submit" class="btn-unified btn-primary-unified" style="padding: 1.2rem 2rem; font-size: 1.1rem; margin-top: 1rem;">Enviar Solicitud</button>
+                    </form>
+                </div>
+
+                <!-- Información de contacto -->
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <div class="contact-title">Dirección</div>
+                            <div class="contact-value">Calle Jardín Verde, 123<br>28001 Madrid, España</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <div class="contact-title">Teléfono</div>
+                            <div class="contact-value">+34 912 345 678<br>+34 687 901 234</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="contact-title">Email</div>
+                            <div class="contact-value">info@luckyshrub.es<br>ventas@luckyshrub.es</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <div class="contact-title">Horarios</div>
+                            <div class="contact-value">Lun - Vie: 9:00 - 18:00<br>Sáb: 9:00 - 14:00<br>Dom: Cerrado</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Llamada a la acción para que el usuario deje su número -->
+        <section class="cta animate-on-load fade-in-scale">
+            <div class="cta-content">
+                <h2>¿Prefieres que te llamemos?</h2>
+                <p>Déjanos tu número y te contactaremos en menos de 24 horas</p>
+                <div class="cta-buttons">
+                    <a href="tel:+34912345678" class="btn-unified btn-primary-unified" style="text-decoration: none; display: inline-block;">Llamar ahora</a>
+                    <a href="index.html" class="btn-unified btn-secondary-unified" style="text-decoration: none; display: inline-block;">Volver al inicio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer con información y enlaces -->
+    <footer class="animate-on-load fade-in-bottom">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/miniatura.png" alt="Lucky Shrub logo" />
+                    <h3>Lucky Shrub</h3>
+                    <p>Transformando espacios, creando vida</p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <div class="contact-info">
+                    <p><a href="https://www.google.com/maps?q=Madrid,+España" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i> Madrid, España</a></p>
+                    <p><a href="tel:+34912345678"><i class="fas fa-phone-alt"></i> +34 912 345 678</a></p>
+                    <p><a href="mailto:info@luckyshrub.es"><i class="fas fa-envelope"></i> info@luckyshrub.es</a></p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Enlaces</h4>
+                <ul class="footer-links">
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="vivero.html">Vivero</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="newsletter">
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="tu@email.com">
+                        <button type="submit">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Avalob. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante para volver arriba -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Volver arriba">↑</button>
+</body>
+
+</html>
