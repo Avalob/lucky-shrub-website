@@ -48,28 +48,28 @@ Demostrar el dominio completo de HTML5 y CSS3 avanzado, creando una experiencia 
 ### 🏠 Página Principal
 La landing page presenta un banner hero con texto animado, secciones de servicios destacados, galería de proyectos y testimonios de clientes.
 
-![Página Principal](assets/Principal1.jpg)
-![Página Principal](assets/Principal2.jpg)
-![Página Principal](assets/Principal3.jpg)
+![Página Principal](assets/Principal1.png)
+![Página Principal](assets/Principal2.png)
+![Página Principal](assets/Principal3.png)
 
 
 ### 🎨 Galería de Proyectos
 Sistema de filtrado dinámico que permite explorar diferentes categorías de proyectos (residencial, corporativo, urbano, sustentable).
 
-![Galería](assets/Galeria1.jpg)
-![Galería](assets/Galeria2.jpg)
-![Galería](assets/Galeria3.jpg)
+![Galería](assets/Galeria1.png)
+![Galería](assets/Galeria2.png)
+![Galería](assets/Galeria3.png)
 
 ### 🌱 Sección de Servicios
 Presentación detallada de los servicios con layout alternado y optimización visual.
 
-![Servicios](assets/Servicios1)
-![Servicios](assets/Servicios1)
+![Servicios](assets/Servicios1.png)
+![Servicios](assets/Servicios2.png)
 
 ### 📞 Sección "Llámanos" y Footer
 Call-to-action destacado para contacto directo y pie de página completo con información de empresa y redes sociales.
 
-![Llamanos y Footer](assets/Footer.jpg)
+![Llamanos y Footer](assets/Footer.png)
 
 ---
 
