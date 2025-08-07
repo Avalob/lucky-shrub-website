@@ -1,4 +1,5 @@
 # 🌿 Lucky Shrub - Sitio Web de Jardinería y Paisajismo
+[Lucky Shrub - Jardinería y Paisajismo](https://avalob.github.io/lucky-shrub-website/)
 
 ![Lucky Shrub Banner](assets/Principal.png)
 
@@ -277,9 +278,9 @@ python -m http.server 8000
 
 ## 🌐 Demo en Vivo
 
-🔗 **URL del Sitio**: [)
+🔗 **Visitar Sitio Web**: [Lucky Shrub - Jardinería y Paisajismo](https://avalob.github.io/lucky-shrub-website/)
 
-*El sitio está desplegado en GitHub Pages y es completamente funcional*
+*El sitio está desplegado en GitHub Pages y es completamente funcional. Incluye todas las funcionalidades: galería interactiva, filtros dinámicos, formulario de contacto y diseño responsive.*
 
 ---
 
